@@ -136,7 +136,7 @@ body {
 }
 
 .circle:nth-child(2) {
-    background-image: url(img.png);
+    background-image: url(img.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 20rem;
@@ -328,7 +328,7 @@ body {
     }
 
     .circle:nth-child(2) {
-        background-image: url(img.png);
+        background-image: url(img.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -368,4 +368,5 @@ body {
     .circle:nth-child(2) {
         width: 11.7rem;
     }
+
 }
