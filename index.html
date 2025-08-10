@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fonts/Poppins-Bold.woff2">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1><span class="port">Port</span>folio.</h1>
+
+        <!-- 📱 Add this menu toggle button -->
+        <span class="menu-toggle" onclick="document.querySelector('.list-box').classList.toggle('active')">
+            &#9776;
+        </span>
+
+        <div class="list-box">
+            <ul class="nav-list">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-box">
+        <div class="first-half">
+            <div class="icon">
+
+                <i class="fab fa-github"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fas fa-user"></i>
+
+            </div>
+            <div class="content">
+                <h2>I'am <br><span> Shivaprasad Umarge</span></h2><br>
+                <p>a passionate</p>
+                <h1>
+                    <span id="typed-text"></span>
+                </h1><br>
+                <button class="button-cv">CV</button>
+                <button class="button-hire">Hire</button>
+            </div>
+            <div class="design">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="second-half">
+            <h1>Hello</h1>
+            <div class="design">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="typed.umd.js"></script>
+
+    <script>
+        const typed = new Typed('#typed-text', {
+            strings: ["Web Developer..", "Programer..", "Viedo Editor.."],
+            typeSpeed: 60,
+            backSpeed: 40,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
